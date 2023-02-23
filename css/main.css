@@ -122,7 +122,7 @@ body {
 }
 
 .our-work .box::before {
-  content:attr(data-work);
+  content: attr(data-work);
   position: absolute;
   width: calc(100% - 10px);
   height: calc(100% - 10px);
@@ -160,3 +160,26 @@ body {
   background-color: var(--dark-color);
 }
 /* End Project Section */
+/* Start Subscribe Section */
+.subscribe {
+  background-color: var(--yellow-color);
+}
+
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+
+.subscribe ::placeholder {
+  color: #fff;
+}
+
+.subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: var(--yellow-color);
+}
+/* End Subscribe Section */
