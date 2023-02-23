@@ -155,3 +155,8 @@ body {
   background-color: var(--green-color);
 }
 /* End Our Team Section */
+/* Start Project Section */
+.project {
+  background-color: var(--dark-color);
+}
+/* End Project Section */
