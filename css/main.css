@@ -1,3 +1,6 @@
+* {
+  outline: none;
+}
 :root {
   --dark-color: #19283f;
   --green-color: #33d1cc;
@@ -5,6 +8,7 @@
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -29,7 +33,6 @@ body {
   height: 2px;
   background-color: var(--green-color);
 }
-
 /* Start Navbar */
 .navbar {
   background-color: var(--dark-color);
@@ -37,8 +40,6 @@ body {
 
 .navbar .navbar-toggler {
   border: 1px solid #fff;
-  color: #fff;
-  font-size: 25px;
 }
 
 .navbar .navbar-toggler:focus {
@@ -183,3 +184,38 @@ body {
   color: var(--yellow-color);
 }
 /* End Subscribe Section */
+/* Start Footer Section */
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer .copyright > span {
+  color: var(--green-color);
+}
+
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer .contact ul .facebook {
+  background-color: #1877f2;
+}
+
+.footer .contact ul .twitter {
+  background-color: #1da1f2;
+}
+
+.footer .contact ul .linkedin {
+  background-color: #0077b5;
+}
+
+.footer .contact ul .youtube {
+  background-color: #ff0000;
+}
+
+/* End Footer Section */
